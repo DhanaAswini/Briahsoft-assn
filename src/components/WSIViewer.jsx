@@ -68,7 +68,7 @@ export default function WSIViewer() {
         >
           <img
             ref={imageRef}
-            src="/Briahsoft-assn/wsi_image.png"
+            src="wsi_image.png"
             alt="WSI"
             onLoad={() => setImageLoaded(true)}
             className="block max-w-none"
@@ -85,7 +85,7 @@ export default function WSIViewer() {
       <div className="w-1/4 bg-gray-200 p-4 border-l">
         <h2 className="text-lg font-semibold mb-2">Hub View</h2>
         <div className="relative">
-          <img src="/Briahsoft-assn/wsi_image.png" alt="Hub View" className="w-full border" />
+          <img src="wsi_image.png" alt="Hub View" className="w-full border" />
           {/* Optional rectangle overlay for zoom location */}
           <div className="absolute border-2 border-blue-500 top-10 left-10 w-12 h-12"></div>
         </div>
