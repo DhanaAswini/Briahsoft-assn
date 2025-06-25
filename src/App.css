@@ -54,7 +54,7 @@
 .logo1 {
   height: 5em;
   padding: 2.5em;
-  will-change: filter;
+  will-change: None;
   transition: filter 300ms;
 }
 .logo:hover {
